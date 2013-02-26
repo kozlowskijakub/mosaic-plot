@@ -1,4 +1,0 @@
-this is a new file
-<?php 
-  echo 'some text in echo';
-?>
