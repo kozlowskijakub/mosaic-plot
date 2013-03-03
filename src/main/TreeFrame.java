@@ -80,7 +80,7 @@ public class TreeFrame extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				try {
 					File file = (File) fileTree.getLastSelectedPathComponent();
-					
+
 					if (file.isDirectory()) {
 						JOptionPane.showMessageDialog(null, "\'" + file.getPath() + " is a directory " + "\'", "Alert", JOptionPane.ERROR_MESSAGE);
 					} else if (file.isFile()) {
